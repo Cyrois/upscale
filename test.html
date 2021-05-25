@@ -20,16 +20,16 @@
       sendEvent(initEvent);
 
       let sizeEvent = { type: 'sizeChange', data: { height: 200}}
-      sentEvent(sizeEvent);
+      sendEvent(sizeEvent);
     }
 
     function sendEvent(event, origin="*") {
-      window.parant.postMessage(event, origin)
+      window.parent.postMessage(event, origin)
     }
   </script>
   </head>
   <body>
-    <label for="appt">Select a time:</label>
+    <label for="appt">Select a time (second):</label>
     <input type="time" id="appt" name="appt">
 
     <pre id="eventPrintout"></pre>
