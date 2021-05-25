@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <<script type="text/javascript">
+    sendStartupEvents();
+
+    var events = []
+
+    window.addEventListener(
+      "message",
+      event => {
+        events.push(event.data);
+        document.getElementById("eventPrintout").innerHTML = JSON.stringify(events, null, 4);
+      },
+      false
+    )
+
+    function sendStartupEvents() {
+      let initEvent = { type: 'initialized'. data: null};
+      sendEvent(initEvent);
+
+      let sizeEvent = { type: 'sizeChange', data: { height: 200}}
+      sentEvent(sizeEvent);
+    }
+
+    function sendEvent(event, origin="*") {
+      window.parant.postMessage(event, origin)
+    }
+  </script>
+  </head>
+  <body>
+    <label for="appt">Select a time (second):</label>
+    <input type="time" id="appt" name="appt">
+
+    <pre id="eventPrintout"></pre>
+  </body>
+</html>
