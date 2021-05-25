@@ -12,7 +12,7 @@ window.addEventListener(
 )
 
 function sendStartupEvents() {
-  let initEvent = { type: 'initialized'. data: null};
+  let initEvent = { type: 'initialized', data: null};
   sendEvent(initEvent);
 
   let sizeEvent = { type: 'sizeChange', data: { height: 200}}
