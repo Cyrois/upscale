@@ -1,0 +1,25 @@
+.breadcrumbs { //category page
+    max-width: 1500px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 5px 0;
+    min-height: 35px;
+    height: auto;
+    .delimiter {
+        &:first-of-type {
+            position: relative;
+            color: #fff;
+            padding: 0 15px;
+            &:after {
+                content: "\003E";
+                position: absolute;
+                top: 0;
+                left: 16px;
+                color: #bebdbd;
+            }
+        }
+    }
+}
+.divider {
+    display: none;
+}

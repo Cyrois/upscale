@@ -1,0 +1,34 @@
+//FIX scrolling issues
+html,
+body {
+  overflow-y: hidden !important;
+}
+
+upscale-header,
+upscale-root {
+  overflow-y: hidden;
+}
+
+upscale-checkout-process {
+  .cart__buttons {
+    upscale-apple-pay-button {
+      // For whatever reason, does not affect Quick Buy button.
+      margin-left: 24px;
+    }
+  }
+}
+
+upscale-product-card {
+  .gridCard {
+    .product {
+      .product-data {
+        .quantity {
+          .label {
+            // Overriding the current 2px.
+            margin-right: 4px !important;
+          }
+        }
+      }
+    }
+  }
+}

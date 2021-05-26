@@ -1,0 +1,16 @@
+:host { //pdp
+    border: 0;
+    padding: 10px 0;
+    max-width: 1500px;
+    width: 85%;
+    margin: 0 auto;
+    min-height: 35px;
+    height: auto;
+    
+    .breadcrumbs__link {
+        color: #424242;
+    }
+    .breadcrumbs__link,.breadcrumbs__text  {
+        font-weight: 300!important;
+    }
+}
