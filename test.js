@@ -2,14 +2,14 @@ sendStartupEvents();
 
 var events = []
 
-window.addEventListener(
-  "message",
-  event => {
-    events.push(event.data);
-    document.getElementById("eventPrintout").innerHTML = JSON.stringify(events, null, 4);
-  },
-  false
-)
+// window.addEventListener(
+//   "message",
+//   event => {
+//     events.push(event.data);
+//     document.getElementById("eventPrintout").innerHTML = JSON.stringify(events, null, 4);
+//   },
+//   false
+// )
 
 function sendStartupEvents() {
   let initEvent = { type: 'initialized', data: null};
