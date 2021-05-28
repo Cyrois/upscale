@@ -1,0 +1,30 @@
+{
+  "_from": "https://cx-upscale.s3-eu-west-1.amazonaws.com/coffeefy/ng-coffeefy.tgz",
+  "_id": "upscale-style-ngcoffeefy@0.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-kWdjlLYewhaCanoY7FRxHKt21QXHPOTCDmozJKv9MmbwWo9YYtVZavdCBBO5ZK8/97D34MgmJA6irPOENApVlg==",
+  "_location": "/upscale-style-ngcoffeefy",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "upscale-style-ngcoffeefy@https://cx-upscale.s3-eu-west-1.amazonaws.com/coffeefy/ng-coffeefy.tgz",
+    "name": "upscale-style-ngcoffeefy",
+    "escapedName": "upscale-style-ngcoffeefy",
+    "rawSpec": "https://cx-upscale.s3-eu-west-1.amazonaws.com/coffeefy/ng-coffeefy.tgz",
+    "saveSpec": "https://cx-upscale.s3-eu-west-1.amazonaws.com/coffeefy/ng-coffeefy.tgz",
+    "fetchSpec": "https://cx-upscale.s3-eu-west-1.amazonaws.com/coffeefy/ng-coffeefy.tgz"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://cx-upscale.s3-eu-west-1.amazonaws.com/coffeefy/ng-coffeefy.tgz",
+  "_shasum": "b25d45b265106e4969d636d4ac9ad317235d5824",
+  "_spec": "upscale-style-ngcoffeefy@https://cx-upscale.s3-eu-west-1.amazonaws.com/coffeefy/ng-coffeefy.tgz",
+  "_where": "C:\\Users\\calvi\\Downloads\\caas2-webapp",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Branches:  - master - css  - data - resources",
+  "license": "MIT",
+  "name": "upscale-style-ngcoffeefy",
+  "version": "0.0.1"
+}

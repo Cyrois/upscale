@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap');
+html * {
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: $color-white;
+}
+
+upscale-header {
+    @media (max-width: 1199px) {
+        padding: 0!important;
+    }
+}
+
+.shopping-cart-icon__cart-icon {
+    width: 15px!important;
+    .shopping-cart-icon__cart-icon-image {
+        width: 100%!important;
+    }
+}

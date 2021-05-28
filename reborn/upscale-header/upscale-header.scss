@@ -1,0 +1,25 @@
+@import "../styles.scss";
+:host {
+  background: rgba($brand-primary, .87);
+  background-image: linear-gradient(to bottom, $brand-primary 0%, $brand-primary 50%, transparent);
+  padding: 20px 0 0 0;
+  backdrop-filter: blur(10px);
+  border-top: 1px solid $color-white;
+  border-bottom: 3px solid $color-white;
+}
+
+.header {
+  &__logo-image.desktop {
+    max-height: 55px !important;
+    width: 175px;
+  }
+  &__top-navbar {
+    padding: 0 20px;
+    @media (max-width: 790px) {
+      display: none !important;
+    }
+  }
+  &__hamburger {
+    background-color: transparent !important;
+  }
+}

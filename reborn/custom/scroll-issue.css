@@ -1,0 +1,13 @@
+html,
+body {
+  overflow-y: hidden !important; }
+
+upscale-header,
+upscale-root {
+  overflow-y: hidden; }
+
+upscale-checkout-process .cart__buttons upscale-apple-pay-button {
+  margin-left: 24px; }
+
+upscale-product-card .gridCard .product .product-data .quantity .label {
+  margin-right: 4px !important; }
